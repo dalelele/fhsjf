@@ -230,4 +230,4 @@ if __name__ == "__main__":
     # 公众号推送消息
     for user in users:
         send_message(user, accessToken, region, weather, temp, wind_dir, note_ch, note_en)
-    os.system("pause")
+  pause();
